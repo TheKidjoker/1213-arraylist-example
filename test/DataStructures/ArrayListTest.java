@@ -1,8 +1,15 @@
 package DataStructures;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*; // Import necessary annotations
 import java.util.NoSuchElementException;
+
+import static org.junit.jupiter.api.Assertions.assertEquals; // Import necessary annotations
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit tests for the ArrayList class.
